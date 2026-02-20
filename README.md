@@ -231,10 +231,10 @@ ALS decomposes the sparse user-movie rating matrix into two smaller matrices (us
 ```
 movielens-lakehouse/
 ├── notebooks/
-│   ├── 01_ingest_bronze.py        # Raw CSV → Delta tables
-│   ├── 02_clean_silver.py         # Type casting, dedup, joins, genre/tag parsing
-│   ├── 03_transform_gold.py       # Fact + dimension tables, user segmentation
-│   └── 04_train_model.py          # ALS training, evaluation, top-10 recommendations 
+│   ├── 01_ingest_bronze.ipynb        # Raw CSV → Delta tables
+│   ├── 02_clean_silver.ipynb         # Type casting, dedup, joins, genre/tag parsing
+│   ├── 03_transform_gold.ipynb       # Fact + dimension tables, user segmentation
+│   └── 04_train_model.ipynb          # ALS training, evaluation, top-10 recommendations 
 └── README.md
 ```
 
