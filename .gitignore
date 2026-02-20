@@ -1,0 +1,8 @@
+data/
+*.csv
+*.json
+__pycache__/
+*.pyc
+.venv/
+.databricks/
+.env
